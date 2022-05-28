@@ -1,0 +1,209 @@
+/*цвет вторичного текста color: #212121*/
+/*цвет основного текста color: #757575*/
+/*color: #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет контакты футер color: rgba(255, 255, 255, 0.6);*/
+/*цвет фона бизнес и футер background: #2F303A*/
+/*цвет наша команда фон background: #F5F4FA*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --fon-btn-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.logoStudio {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+
+/* header site-nav*/
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+/* header contacts*/
+.site-cont a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-cont .link:hover,
+.site-cont .link:focus {
+  color: var(--accent-color);
+}
+.site-cont {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Главная секция*/
+.main-name {
+  background-color: #2f303a;
+}
+.main-name .main-name-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*особенности*/
+
+.benefits .benefits-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits .benefits-about {
+  line-height: 1.72;
+}
+
+/*Наша команда*/
+.fon-team {
+  background-color: var(--fon-btn-color);
+}
+.team .team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team .team-position {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/*footer*/
+.footer-page {
+  background-color: #2f303a;
+}
+.logofootStudio {
+  color: var(--primary-bg-color);
+}
+
+.address .address-maps {
+  color: var(--primary-bg-color);
+}
+.address .address-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+.contacts a {
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.72;
+}
+
+/*button*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--fon-btn-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.main-name .link:hover,
+.main-name .link:focus {
+  text-decoration: none;
+  background-color: var(--accent-color);
+  background-color: #188ce8;
+}
+
+.filtr .link:hover,
+.filtr .link:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+.button.primary {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+/*Портфолио*/
+.work .work-titel {
+  color: var(--title-text-color);
+}
+.work .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.work .work-about {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
