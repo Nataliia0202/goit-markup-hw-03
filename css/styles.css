@@ -22,6 +22,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  outline: 2px solid tomato;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -35,6 +43,8 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* header site-nav*/
@@ -74,8 +84,11 @@ body {
 /* Главная секция*/
 .main-name {
   background-color: #2f303a;
+  text-align: center;
 }
 .main-name .main-name-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   color: var(--primary-bg-color);
   font-weight: 900;
   font-size: 44px;
@@ -150,6 +163,7 @@ body {
 /*button*/
 
 .button {
+  border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--fon-btn-color);
   cursor: pointer;
@@ -157,8 +171,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  text-align: center;
+  border: 2px solid transparent;
   letter-spacing: 0.03em;
 }
+
+.button.primary.link {
+  padding: 10px 32px;
+  align-items: center;
+}
+
 .main-name .link:hover,
 .main-name .link:focus {
   text-decoration: none;
@@ -176,6 +198,10 @@ body {
   background-color: var(--accent-color);
   font-weight: 700;
   letter-spacing: 0.06em;
+}
+
+.button.link {
+  padding: 6px 22px;
 }
 
 /*Портфолио*/
@@ -206,4 +232,8 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section {
+  padding: 94px 0;
 }
