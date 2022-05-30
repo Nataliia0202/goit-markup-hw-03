@@ -23,9 +23,11 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   
   outline: 2px solid tomato;
 }
@@ -83,6 +85,7 @@ body {
 
 /* Главная секция*/
 .main-name {
+
   background-color: #2f303a;
   text-align: center;
 }
@@ -99,6 +102,9 @@ body {
 }
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -109,6 +115,9 @@ body {
 /*особенности*/
 
 .benefits .benefits-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -117,6 +126,9 @@ body {
 }
 
 .benefits .benefits-about {
+  margin-top: 0;
+  margin-bottom: 0;
+
   line-height: 1.72;
 }
 
@@ -125,6 +137,9 @@ body {
   background-color: var(--fon-btn-color);
 }
 .team .team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -132,6 +147,8 @@ body {
 }
 
 .team .team-position {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -203,12 +220,18 @@ body {
 .button.link {
   padding: 6px 22px;
 }
+.filtr {
+  margin-bottom: 50px;
+}
 
 /*Портфолио*/
 .work .work-titel {
   color: var(--title-text-color);
 }
 .work .section-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -217,6 +240,9 @@ body {
 }
 
 .work .work-about {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 16px;
   line-height: 1.87;
 }
@@ -237,3 +263,10 @@ body {
 .section {
   padding: 94px 0;
 }
+
+/* .fon-bnf {
+  background-color: aquamarine;
+}
+.fon-work {
+  background-color: chartreuse;
+} */
