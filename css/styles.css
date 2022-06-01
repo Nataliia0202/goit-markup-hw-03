@@ -12,6 +12,8 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --fon-btn-color: #f5f4fa;
+  --color-border: #EEEEEE;
+  --color-border-buttom: #E5E5E5;
 }
 
 body {
@@ -20,6 +22,39 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .container {
@@ -32,9 +67,7 @@ body {
   /* outline: 2px solid tomato; */
 }
 
-img {
-  display: block;
-}
+
 
 .logo {
   color: var(--accent-color);
@@ -42,22 +75,18 @@ img {
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logoStudio {
   color: #000000;
 }
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
 
 /* header site-nav*/
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #E5E5E5;
+  border-bottom: 2px solid var(--color-border-buttom);
 }
 
 .site-nav .link {
@@ -102,8 +131,8 @@ img {
 /* header contacts*/
 .site-cont a {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
+
 .site-cont .link:hover,
 .site-cont .link:focus {
   color: var(--accent-color);
@@ -130,6 +159,7 @@ img {
 .main-name {
   background-color: #2f303a;
   text-align: center;
+  padding: 200px 0;
 }
 .main-name .main-name-title {
   margin-top: 0;
@@ -143,6 +173,7 @@ img {
   text-transform: uppercase;
 }
 
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -152,11 +183,12 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  
 }
 
 /*особенности*/
-.section {
-  display: flex;
+.fon-bnf {
+  padding-bottom: 0;
 }
 .benefits {
   display: flex;
@@ -270,8 +302,6 @@ img {
 }
 
 .contacts a {
-  text-decoration: none;
-  font-style: normal;
   line-height: 1.72;
 }
 
@@ -299,7 +329,6 @@ img {
 
 .main-name .link:hover,
 .main-name .link:focus {
-  text-decoration: none;
   background-color: var(--accent-color);
   background-color: #188ce8;
 }
@@ -371,9 +400,9 @@ img {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
 }
 
 
@@ -391,9 +420,7 @@ img {
   overflow: hidden;
 }
 
-.section {
-  padding: 94px 0;
-}
+
 
 /* .fon-bnf {
   background-color: aquamarine;
