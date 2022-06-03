@@ -86,7 +86,7 @@ address {
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--color-border-buttom);
+  border-bottom: 1px solid var(--color-border-buttom);
 }
 
 .site-nav .link {
